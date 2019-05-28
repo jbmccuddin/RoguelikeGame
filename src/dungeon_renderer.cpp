@@ -13,13 +13,13 @@ static void print_dungeon(dungeon* dungeon){
             switch (cell)
             {
                 case WALL:
-                    printf("%d", cell);
+                    printf("#");
                     break;
                 case CORRIDOR:
-                    printf("%d", cell);
+                    printf(" ");
                     break;
                 case ROOM:
-                    printf("%d", cell);
+                    printf(" ", cell);
                     break;
             }
         }
